@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    /* margin: 2px;
+    height: 100px;
+    top: 40px;
+    left: 0;
+    width: 100%; */
+}
+
+.icones {
+    width: 100px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: right;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.slaide {
+    width: 100%;
+}
+
+.itens {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/fundo.jpeg);
+    width: 100%;
+}
+
+
+.itens-principais {
+    border: 2px solid white;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+#titulo {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fundo {
+    width: 100%;
+    height: 100%;
+}
